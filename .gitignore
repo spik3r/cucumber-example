@@ -1,0 +1,7 @@
+.idea/
+gherkin.iml
+target/
+acceptance/
+test-output/
+.built
+.compared
