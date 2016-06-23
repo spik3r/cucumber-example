@@ -22,7 +22,7 @@ public class TestShapes {
             area = shape.area();
         }
 
-        @Then("Result should be (\\d.+)")
+        @Then("Result should be (\\d.*)")
         public void I_should_be_told_the_correct_answer_is(Double expectedResult) {
             assertThat(area, is(equalTo(expectedResult)));
         }

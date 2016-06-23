@@ -8,9 +8,9 @@ Feature: Shapes
 
     Examples:
       | size | type        | result     |
-      | 2    | Rectangle   | 4.0        |
-      | 5    | Rectangle   | 25.0       |
-      | 10   | Rectangle   | 100.0      |
+      | 2    | Rectangle   | 4        |
+      | 5    | Rectangle   | 25         |
+      | 10   | Rectangle   | 100      |
 
   Scenario Outline: Testing different Circles
     Given I am making a Shape
@@ -32,4 +32,4 @@ Feature: Shapes
       | size | type       | result    |
       | 1    | Triangle   | 0.5       |
       | 5    | Triangle   | 12.5      |
-      | 10   | Triangle   | 50        |
+      | 10   | Triangle   | 50.0      |
